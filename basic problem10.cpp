@@ -1,3 +1,4 @@
+//https://e-tutor.itsa.org.tw/e-Tutor/mod/programming/view.php?id=30757
 // Always divide the larger number by the smaller number
 // when one of them is 0 => the other is greatest common factor
 #include<iostream>
