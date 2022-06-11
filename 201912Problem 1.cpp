@@ -10,7 +10,7 @@ using namespace std;
 
 int main(){
     int testnum;
-    int in, out;
+    int in, out; // 網內,網外
     float price;
     int i, j;
     cin >> testnum;
