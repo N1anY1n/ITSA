@@ -1,3 +1,4 @@
+//https://e-tutor.itsa.org.tw/e-Tutor/mod/programming/view.php?id=53095
 //202007 problem 1
 //input:
 //2
