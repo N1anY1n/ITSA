@@ -1,8 +1,9 @@
+// https://e-tutor.itsa.org.tw/e-Tutor/mod/programming/view.php?id=30749
 #include<iostream>
 using namespace std;
 int main(){
-    int x,y; // x,y®y¼Ğ
-    cin >> x >> y ; //Åª¤J®y¼Ğ
+    int x,y; // x,yÂ®yÂ¼Ã
+    cin >> x >> y ; //Ã…ÂªÂ¤JÂ®yÂ¼Ã
     if( ( x <=100 && x >= -100) && ( y <=100 && y >= -100))
         // judge whether is inside or not
         cout << "inside\n";
