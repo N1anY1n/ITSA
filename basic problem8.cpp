@@ -1,3 +1,4 @@
+//https://e-tutor.itsa.org.tw/e-Tutor/mod/programming/view.php?id=30752
 // judge prime number
 #include<iostream>
 using namespace std;
