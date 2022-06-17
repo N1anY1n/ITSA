@@ -1,4 +1,4 @@
-//basic problem 4
+//https://e-tutor.itsa.org.tw/e-Tutor/mod/programming/view.php?id=30748
 //input:
 //10 23
 //15 20
