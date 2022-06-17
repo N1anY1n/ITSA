@@ -1,11 +1,12 @@
 // https://e-tutor.itsa.org.tw/e-Tutor/mod/programming/view.php?id=30785
-#include<stdio.h>
+#include<iostream>
+using namespace std;
 int main(){
     int n, i, temp;
     int num[10] = {0}, t[10] = {0}, f[10] = {0};
-    scanf("%d", &n);
+    cin >> n;
     for ( i = 0 ; i < n ; i++ )
-        scanf("%d", &num[i]);
+        cin >> num[i];
 
     for( int j = i-1; j > 0 ; j-- ){  // bubble sort (單看讀入的數字)
         for( int a = 0; a < j ; a++ ){
@@ -36,17 +37,13 @@ int main(){
         for( int a = 0; a <= j ; a++ ){
             if( t[a] > t[j] ){
                 temp = num[j];
-               //printf("%d\n", num[j]);
                 num[j] = num[a];
-               // printf("%d\n", num[j]);
                 num[a] = temp;
             }
             else if( t[a] == t[j] && f[a] > f[j] ){ // 如果數字和相同比最前面為數之數字大小
 
                 temp = num[j];
-               //printf("%d\n", num[j]);
                 num[j] = num[a];
-               // printf("%d\n", num[j]);
                 num[a] = temp;
 
             }
@@ -54,7 +51,6 @@ int main(){
     }
 
     for( int j = 0 ; j < i; j++ ) // 印出排序後之結果
-    for( int j = 0 ; j < i; j++ ) // 印出排序後之結果
-        printf("%d ", num[j]);
+        cout << num[j] << " ";
 
 } // main()
