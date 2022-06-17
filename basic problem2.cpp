@@ -1,12 +1,13 @@
+//https://e-tutor.itsa.org.tw/e-Tutor/mod/programming/view.php?id=30747
 #include <iostream>
 #include <iomanip>
 using namespace std;
 int main(){
 
-    int mi; // ­^­ù
-    float km; // ¤½¨½
-    cin >> mi ; // Åª¤J¿é¤J¤§­^­ù
-    km = mi*1.6; // Âà´«
-    cout << setprecision(1) <<fixed << km ; // ¦L¥X¤½¨½¼Æ(§t¤p¼ÆÂI«á¤@¦ì)
+    int mi; // è‹±å“©
+    float km; // å…¬é‡Œ
+    cin >> mi ; // è®€å…¥è¼¸å…¥ä¹‹è‹±å“©
+    km = mi*1.6; // è½‰æ›
+    cout << setprecision(1) <<fixed << km ; // å°å‡ºå…¬é‡Œæ•¸(å«å°æ•¸é»å¾Œä¸€ä½)
 
 }
