@@ -1,3 +1,4 @@
+//https://e-tutor.itsa.org.tw/e-Tutor/mod/programming/view.php?id=30751
 //Calculates the sum of positive integers divisible by 3
 #include<iostream>
 using namespace std;
