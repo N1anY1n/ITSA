@@ -1,3 +1,4 @@
+//https://e-tutor.itsa.org.tw/e-Tutor/mod/programming/view.php?id=30792
 //Standard weight calculation
 //male: (height-80)*0.9
 //female:(height-70)*0.6
