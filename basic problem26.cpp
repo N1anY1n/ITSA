@@ -1,3 +1,4 @@
+// https://e-tutor.itsa.org.tw/e-Tutor/mod/programming/view.php?id=30785
 #include<stdio.h>
 int main(){
     int n, i, temp;
@@ -6,7 +7,7 @@ int main(){
     for ( i = 0 ; i < n ; i++ )
         scanf("%d", &num[i]);
 
-    for( int j = i-1; j > 0 ; j-- ){  // bubble sort (³æ¬İÅª¤Jªº¼Æ¦r)
+    for( int j = i-1; j > 0 ; j-- ){  // bubble sort (å–®çœ‹è®€å…¥çš„æ•¸å­—)
         for( int a = 0; a < j ; a++ ){
             if( num[a] > num[j] ){
                 temp = num[j];
@@ -19,7 +20,7 @@ int main(){
 
 
 
-    for( i = 0; i < n ; i++ ) { // ¦U¦ì¼Æ¦r©M
+    for( i = 0; i < n ; i++ ) { // å„ä½æ•¸å­—å’Œ
         temp = num[i];
         for(int j = 0; temp > 0 ; j++ ){
             t[i] = t[i] + temp%10;
@@ -31,7 +32,7 @@ int main(){
 
     temp = 0;
 
-    for( int j = i-1; j >= 0 ; j-- ){ // bubble sort ­Ó¦ì¼Æ¦r©M¤j¤p
+    for( int j = i-1; j >= 0 ; j-- ){ // bubble sort å€‹ä½æ•¸å­—å’Œå¤§å°
         for( int a = 0; a <= j ; a++ ){
             if( t[a] > t[j] ){
                 temp = num[j];
@@ -40,7 +41,7 @@ int main(){
                // printf("%d\n", num[j]);
                 num[a] = temp;
             }
-            else if( t[a] == t[j] && f[a] > f[j] ){ // ¦pªG¼Æ¦r©M¬Û¦P¤ñ³Ì«e­±¬°¼Æ¤§¼Æ¦r¤j¤p
+            else if( t[a] == t[j] && f[a] > f[j] ){ // å¦‚æœæ•¸å­—å’Œç›¸åŒæ¯”æœ€å‰é¢ç‚ºæ•¸ä¹‹æ•¸å­—å¤§å°
 
                 temp = num[j];
                //printf("%d\n", num[j]);
@@ -52,8 +53,8 @@ int main(){
         }
     }
 
-    for( int j = 0 ; j < i; j++ ) // ¦L¥X±Æ§Ç«á¤§µ²ªG
-    for( int j = 0 ; j < i; j++ ) // ¦L¥X±Æ§Ç«á¤§µ²ªG
+    for( int j = 0 ; j < i; j++ ) // å°å‡ºæ’åºå¾Œä¹‹çµæœ
+    for( int j = 0 ; j < i; j++ ) // å°å‡ºæ’åºå¾Œä¹‹çµæœ
         printf("%d ", num[j]);
 
 } // main()
