@@ -1,3 +1,4 @@
+// https://e-tutor.itsa.org.tw/e-Tutor/mod/programming/view.php?id=30779
 #include<iostream>
 using namespace std;
 
@@ -6,7 +7,7 @@ int main(){
     int idnum[10];
     int i, x1, x2; // index
     int p;
-    cout << "½Ð¿é¤J¨­¤ÀÃÒ¦r¸¹: ";
+    cout << "Â½ÃÂ¿Ã©Â¤JÂ¨Â­Â¤Ã€ÃƒÃ’Â¦rÂ¸Â¹: ";
     for( i = 0 ; i < 10 ; i++ )
         cin >> id[i];
     if( id[0] >= 65 && id[0] <= 72 )
