@@ -1,8 +1,10 @@
-#include<stdio.h>
+//https://e-tutor.itsa.org.tw/e-Tutor/mod/programming/view.php?id=30795
+#include<iostream>
+using namespace std;
 int main(){
     int degree;
     float summer, unsummer;
-    scanf("%d", &degree);
+    cin >> degree;
     if( degree <= 120 ) {
         summer = degree*2.10;
         unsummer = degree*2.10;
@@ -28,7 +30,7 @@ int main(){
         unsummer = 120*2.10+210*2.68+170*3.61+200*4.01+degree*4.50;
     }
 
-    printf("Summer months:%.2f\n", summer );
-    printf("Non-Summer months:%.2f\n", unsummer );
+    cout << "Summer months:" << fixed << setprecision(2) << summer ;
+    cout << "Non-Summer months:"<< fixed << setprecision(2) << unsummer ;
 
 }
