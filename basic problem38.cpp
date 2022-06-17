@@ -1,5 +1,6 @@
 //https://e-tutor.itsa.org.tw/e-Tutor/mod/programming/view.php?id=30795
 #include<iostream>
+#include<iomanip>
 using namespace std;
 int main(){
     int degree;
@@ -30,7 +31,7 @@ int main(){
         unsummer = 120*2.10+210*2.68+170*3.61+200*4.01+degree*4.50;
     }
 
-    cout << "Summer months:" << fixed << setprecision(2) << summer ;
-    cout << "Non-Summer months:"<< fixed << setprecision(2) << unsummer ;
+    cout << "Summer months:" << fixed << setprecision(2) << summer <<endl;
+    cout << "Non-Summer months:"<< fixed << setprecision(2) << unsummer <<endl;
 
 }
